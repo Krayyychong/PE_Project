@@ -16,7 +16,32 @@ namespace PE_Project
 
         protected void Cart_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("~/ShoppingCart.aspx");
+            string css_string = cartControl.Attributes["class"];
+            string hide = "translate-x-full";
+            string show = "translate-x-0";
+            if (css_string.Contains(hide))
+            {
+                css_string = css_string.Replace(hide, show);
+                cartControl.Attributes["class"] = css_string;
+            }
+        }
+
+        protected void Close_and_Continue_Click(object sender, EventArgs e)
+        {
+            string css_string = cartControl.Attributes["class"];
+            string hide = "translate-x-full";
+            string show = "translate-x-0";
+            if (css_string.Contains(show))
+            {
+                css_string = css_string.Replace(show, hide);
+                cartControl.Attributes["class"] = css_string;
+            }
+
+        }
+        
+        protected void Checkout_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Payment.aspx");
         }
     }
 }
