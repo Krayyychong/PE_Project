@@ -45,7 +45,7 @@
                 <div class="hidden lg:flex lg:gap-x-12">
                     <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Books</a> 
                     
-                    <a href="#" class="text-sm font-semibold leading-6 text-gray-900">About</a>
+                    <a href="About.aspx" class="text-sm font-semibold leading-6 text-gray-900">About</a>
                 </div>
                 <div class="hidden lg:flex lg:flex-1 lg:justify-end">
                     <!--
@@ -77,7 +77,7 @@
     </asp:ContentPlaceHolder>
 
     <asp:ContentPlaceHolder ID="Footer" runat="server">
-        <footer class="absolute bottom w-full">
+        <footer class="absolute bottom w-full mt-5">
             <div class="flex flex-col bg-gray-300 h-48" style="background-color: #CCAC88">
                 <h1 class="text-center text-slate-700 mt-5 text-4xl" style="font-family: Inspiration; -webkit-text-stroke: 1px #000000;">Book Haven</h1>
                 <div class="flex text-slate-700 gap-2 my-5 items-center justify-center">

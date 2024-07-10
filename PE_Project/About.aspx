@@ -130,7 +130,7 @@
           <img class="h-16 w-16 rounded-full" src="Image/profile.jpg" alt="">
           <div>
             <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Chong Kai Ying</h3>
-            <p class="text-sm font-semibold leading-6 text-indigo-600"> SWE2109029</p>
+            <p class="text-sm font-semibold leading-6 text-gray-700/50"> SWE2109029</p>
           </div>
         </div>
       </li>
@@ -140,7 +140,7 @@
             <img class="h-16 w-16 rounded-full" src="Image/profile.jpg" alt="">
             <div>
               <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Benali Nejd</h3>
-              <p class="text-sm font-semibold leading-6 text-indigo-600">SWE2109903</p>
+              <p class="text-sm font-semibold leading-6 text-gray-700/50">SWE2109903</p>
             </div>
           </div>
       </li>
@@ -150,7 +150,7 @@
             <img class="h-16 w-16 rounded-full" src="Image/profile.jpg" alt="">
             <div>
               <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Xu Yuxuan</h3>
-              <p class="text-sm font-semibold leading-6 text-indigo-600">SWE2109567</p>
+              <p class="text-sm font-semibold leading-6 text-gray-700/50">SWE2109567</p>
             </div>
           </div>
        </li>
@@ -160,7 +160,7 @@
         <img class="h-16 w-16 rounded-full" src="Image/profile.jpg" alt="">
         <div>
             <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Wang Chenxuan</h3>
-            <p class="text-sm font-semibold leading-6 text-indigo-600">SWE2109541</p>
+            <p class="text-sm font-semibold leading-6 text-gray-700/50">SWE2109541</p>
         </div>
         </div>
       </li>
@@ -188,15 +188,19 @@
       
       <div class="grid gap-x-8 gap-y-10 py-10">
         <div class="justify-items-center w-full gap-x-4">
-          <label for="email-address">Email address:</label>
-          <input id="email-address" name="email" type="email" autocomplete="email" required class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" placeholder="Enter your email">
+          <label for="emailAddress">Email address:</label>
+          <asp:TextBox ID="emailAddress" runat="server" Text="Enter Your Email" Columns="90"
+              CssClass="min-w-0 flex-auto rounded-md border bg-white/5 px-3.5 py-2 text-gray-300 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"></asp:TextBox>
         </div>
         <div class="justify-items-center w-full gap-x-4">
-          <label for="advice">Email address:</label>
-          <input id="advice" name="email" type="email" autocomplete="email" required class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" placeholder="Enter your email">
+          <label for="advice">Your Advice:</label>
+          <asp:TextBox ID="advice" Columns="90" Rows="500" runat="server" CssClass="min-w-0 flex-auto rounded-md border bg-white/5 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"></asp:TextBox>
         </div>
-        <div class="items-center w-full">
-            <asp:Button runat="server" ID="contactSubmitBtn" Text="SUBMIT" />
+        <div class="text-center w-full">
+            <asp:Button runat="server" ID="contactSubmitBtn" Text="SUBMIT" 
+                CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
+                                hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                />
         </div>
       </div>
     </div>

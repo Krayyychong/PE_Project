@@ -136,7 +136,7 @@
 
     <!--category-cartoon-->
 <div class="bg-white">
-  <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+  <div class="mx-auto max-w-2xl px-4 py-24 sm:px-6 lg:max-w-7xl lg:px-8">
     <h2 class="font-bold pb-4"> Cartoon : </h2>
 
     <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
@@ -149,7 +149,8 @@
             <p class="mt-1 text-lg font-medium text-gray-900">$48</p>
         </div>
         <div class="items-center text-center">
-            <asp:Button runat="server" ID="CartoonSubmitBtn1" CssClass="bg-gray-200" Text="Add To Cart" />
+            <asp:Button runat="server" ID="CartoonSubmitBtn1" CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
+                                hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" />
         </div>
       </a>
       <a href="#" class="group">
@@ -159,7 +160,8 @@
         <h3 class="mt-4 text-sm text-gray-700">Nomad Tumbler</h3>
         <p class="mt-1 text-lg font-medium text-gray-900">$35</p>
         <div class="items-center text-center">
-            <asp:Button runat="server" ID="CartoonSubmitBtn2" CssClass="bg-gray-200" Text="Add To Cart" />
+            <asp:Button runat="server" ID="CartoonSubmitBtn2" CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
+                                hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" />
         </div>
       </a>
       <a href="#" class="group">
@@ -169,7 +171,8 @@
         <h3 class="mt-4 text-sm text-gray-700">Focus Paper Refill</h3>
         <p class="mt-1 text-lg font-medium text-gray-900">$89</p>
         <div class="items-center text-center">
-            <asp:Button runat="server" ID="CartoonSubmitBtn3" CssClass="bg-gray-200" Text="Add To Cart" />
+            <asp:Button runat="server" ID="CartoonSubmitBtn3" CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
+                                hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" />
         </div>
       </a>
       <a href="#" class="group">
@@ -179,7 +182,8 @@
         <h3 class="mt-4 text-sm text-gray-700">Machined Mechanical Pencil</h3>
         <p class="mt-1 text-lg font-medium text-gray-900">$35</p>
         <div class="items-center text-center">
-            <asp:Button runat="server" ID="CartoonSubmitBtn4" CssClass="bg-gray-200" Text="Add To Cart" />
+            <asp:Button runat="server" ID="CartoonSubmitBtn4" CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
+                                hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" />
         </div>
       </a>
 
