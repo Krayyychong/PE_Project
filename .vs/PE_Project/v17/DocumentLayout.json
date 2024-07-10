@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\XU\\source\\repos\\PE_Project\\",
   "Documents": [
     {
@@ -49,10 +50,15 @@
       "RelativeMoniker": "D:0:0:{5A5EC8EF-0382-47A3-8B06-5C780E52E978}|PE_Project\\PE_Project.csproj|solutionrelative:pe_project\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
+=======
+  "WorkspaceRootPath": "C:\\Users\\XU\\Github\\PE_Project\\",
+  "Documents": [],
+>>>>>>> d33b0d5078683e362d4e576a3891ffcc90f68859
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< HEAD
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -218,6 +224,9 @@
           ]
         }
       ]
+=======
+      "DocumentGroups": []
+>>>>>>> d33b0d5078683e362d4e576a3891ffcc90f68859
     }
   ]
 }
