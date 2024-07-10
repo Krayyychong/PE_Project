@@ -4,13 +4,13 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="Home" runat="server">
 <!--welcome rolling-->
-<div class="relative overflow-hidden bg-[#DDC7B5]">
+<div class="relative overflow-hidden bg-[#7E604A] ">
       <div class="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
         <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <!--text-->
           <div class="sm:max-w-lg">
-            <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Book Haven are finally here</h1>
-            <p class="mt-4 text-xl text-gray-500"> In our store, you can find every book you want </p>
+            <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl font-serif italic ">Book Haven are finally here</h1>
+            <p class="mt-4 text-xl text-gray-100"> In our store, you can find every book you want </p>
           </div>
           
             <div class="mt-10">

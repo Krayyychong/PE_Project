@@ -7,7 +7,7 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="Welcome" runat="server">
 
-            <div class="bg-white">
+            <div class="h-full bg-[url('./Image/welcome_cover.png')]">
 
               <div class="relative isolate px-6 pt-14 lg:px-8">
                 <!-- upper left decor -->
@@ -19,12 +19,12 @@
                   
                     <div class="text-center">
 
-                        <h1 class="text-4xl font-bold text-gray-900 sm:text-5xl">Here is a trip to Book Haven</h1>
+                        <h1 class="text-4xl font-bold text-white sm:text-5xl font-serif italic">Here is a trip to Book Haven</h1>
                         <!-- redirect to question.aspx on click -->
                         <div class="mt-10 flex items-center justify-center gap-x-6">
                             <asp:LinkButton runat="server" Text="Get Started" PostBackUrl="~/home.aspx" 
-                                CssClass ="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
-                                hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 ">
+                                CssClass =" font-serif italic rounded-md bg-[#856A57] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
+                                hover:bg-[#A48976] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 ">
                             </asp:LinkButton>
                         </div>
 
