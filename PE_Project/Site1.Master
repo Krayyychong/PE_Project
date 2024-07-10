@@ -51,7 +51,7 @@
                     <!--
                     <a href="#" class="text-sm font-semibold leading-6 text-gray-900"> Welcome! <span aria-hidden="true"></span></a>
                     -->
-                    <asp:ImageButton ID="Cart" runat="server" ImageUrl="~/Image/cart.png" NavigateUrl="~/ShoppingCart.aspx" OnClick="Cart_Click" Width="23px" />
+                    <asp:ImageButton ID="Cart" runat="server" ImageUrl="~/Image/cart.png" OnClick="Cart_Click" Width="23px" CssClass="transition duration-150 ease-out hover:ease-in active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300"/>
                 </div>
             </nav>
             </header>

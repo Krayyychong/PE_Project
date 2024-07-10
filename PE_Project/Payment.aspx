@@ -3,25 +3,13 @@
 </asp:Content>
 
 <asp:Content ID="Content4" ContentPlaceHolderID="Payment" runat="server">
-    <style>
-        .container {
-            border-radius: 25px;
-            max-width: 800px;
-            margin-top: 3%;
-            margin-bottom: 3%;
-            margin-left: 20%;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-    </style>
 
     <div class="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
         <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]" aria-hidden="true">
             <div class="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
         </div>
 
-        <div class="container">
+        <div class="border shadow bg-white mx-96 my-4 rounded-lg px-16 py-6">
         <div class="mx-auto max-w-2xl text-center">
             <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Payment Information</h2>
             <p class="mt-2 text-lg leading-8 text-gray-600">Please enter the relevant information for payment.</p>
@@ -56,7 +44,7 @@
                             <asp:ListItem>+866</asp:ListItem>
                         </asp:DropDownList>
                     </div>
-                    <asp:TextBox ID="TextBox1" runat="server" Width="308px" CssClass="block w-full rounded-md border-0 px-3.5 py-2 pl-20 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Width="308px" CssClass="block w-full rounded-md border-0 px-3.5 py-2 pl-24 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></asp:TextBox>
                 </div>
             </div>
   
