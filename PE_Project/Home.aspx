@@ -65,6 +65,10 @@
         </div>
         <h3 class="mt-4 text-sm text-gray-700">Earthen Bottle</h3>
         <p class="mt-1 text-lg font-medium text-gray-900">$48</p>
+        <div class="items-center text-center">
+            <asp:Button runat="server" ID="NovelSubmitBtn1" CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
+                    hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" />
+        </div>
       </a>
       <a href="#" class="group">
         <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
@@ -72,6 +76,10 @@
         </div>
         <h3 class="mt-4 text-sm text-gray-700">Nomad Tumbler</h3>
         <p class="mt-1 text-lg font-medium text-gray-900">$35</p>
+        <div class="items-center text-center">
+            <asp:Button runat="server" ID="NovelSubmitBtn2" CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
+                        hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" />
+        </div>
       </a>
       <a href="#" class="group">
         <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
@@ -79,6 +87,10 @@
         </div>
         <h3 class="mt-4 text-sm text-gray-700">Focus Paper Refill</h3>
         <p class="mt-1 text-lg font-medium text-gray-900">$89</p>
+        <div class="items-center text-center">
+            <asp:Button runat="server" ID="NovelSubmitBtn3" CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
+                            hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" />
+        </div>
       </a>
       <a href="#" class="group">
         <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
@@ -86,6 +98,10 @@
         </div>
         <h3 class="mt-4 text-sm text-gray-700">Machined Mechanical Pencil</h3>
         <p class="mt-1 text-lg font-medium text-gray-900">$35</p>
+        <div class="items-center text-center">
+            <asp:Button runat="server" ID="NovelSubmitBtn4" CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
+                            hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" />
+        </div>
       </a>
 
       <!-- More products... -->
@@ -106,6 +122,10 @@
         </div>
         <h3 class="mt-4 text-sm text-gray-700">Earthen Bottle</h3>
         <p class="mt-1 text-lg font-medium text-gray-900">$48</p>
+        <div class="items-center text-center">
+        <asp:Button runat="server" ID="FictionSubmitBtn1" CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
+            hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" />
+        </div>
       </a>
       <a href="#" class="group">
         <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
@@ -113,6 +133,10 @@
         </div>
         <h3 class="mt-4 text-sm text-gray-700">Nomad Tumbler</h3>
         <p class="mt-1 text-lg font-medium text-gray-900">$35</p>
+        <div class="items-center text-center">
+            <asp:Button runat="server" ID="FictionSubmitBtn2" CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
+                    hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" />
+        </div>
       </a>
       <a href="#" class="group">
         <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
@@ -120,6 +144,10 @@
         </div>
         <h3 class="mt-4 text-sm text-gray-700">Focus Paper Refill</h3>
         <p class="mt-1 text-lg font-medium text-gray-900">$89</p>
+        <div class="items-center text-center">
+        <asp:Button runat="server" ID="FictionSubmitBtn3" CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
+                            hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" />
+        </div>
       </a>
       <a href="#" class="group">
         <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
@@ -127,6 +155,10 @@
         </div>
         <h3 class="mt-4 text-sm text-gray-700">Machined Mechanical Pencil</h3>
         <p class="mt-1 text-lg font-medium text-gray-900">$35</p>
+        <div class="items-center text-center">
+            <asp:Button runat="server" ID="FictionSubmitBtn4" CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
+                                hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" />
+        </div>
       </a>
 
       <!-- More products... -->
