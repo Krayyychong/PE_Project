@@ -25,14 +25,14 @@
             <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
 
             <div>
-                <asp:Label ID="label1" runat="server" CssClass="block text-sm font-semibold leading-6 text-gray-900">First Name</asp:Label>
+                <asp:Label ID="label1" runat="server" CssClass="block text-sm font-semibold leading-6 text-gray-900">Card Name</asp:Label>
                 <div class="mt-2.5"> 
                     <asp:TextBox ID="FirstName" runat="server" Width="308px" CssClass="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" ></asp:TextBox>
                 </div>
             </div>
 
             <div>
-                <asp:Label ID="label2" runat="server" CssClass="block text-sm font-semibold leading-6 text-gray-900">First Name</asp:Label>
+                <asp:Label ID="label2" runat="server" CssClass="block text-sm font-semibold leading-6 text-gray-900">Last Name</asp:Label>
                 <div class="mt-2.5"> 
                     <asp:TextBox ID="LastName" runat="server" Width="308px" CssClass="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" ></asp:TextBox>
                 </div>
@@ -58,6 +58,58 @@
                 <div class="mt-2.5">
                     <asp:TextBox ID="TextBox2"  runat="server" Width="308px" CssClass="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></asp:TextBox>
                 </div>
+            </div>
+
+             <div>
+                <asp:Label ID="label3" runat="server" CssClass="block text-sm font-semibold leading-6 text-gray-900">Credit Card</asp:Label>
+                <div class="relative mt-2.5">
+                    <div class="absolute inset-y-0 left-0 flex items-center">
+                        <asp:Label ID="label4" runat="server" CssClass="sr-only">Bank</asp:Label>
+                        <asp:DropDownList ID="DropDownList2" runat="server" Width="90px" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" CssClass="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-1 pr-5 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm">
+                            <asp:ListItem>CIMB</asp:ListItem>
+                            <asp:ListItem>CitiBank</asp:ListItem>
+                            <asp:ListItem>Maybank</asp:ListItem>
+                        </asp:DropDownList>
+                    </div>
+                    <asp:TextBox ID="TextBox4" runat="server" Width="308px" CssClass="block w-full rounded-md border-0 px-3.5 py-2 pl-24 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></asp:TextBox>
+                </div>
+            </div>
+
+            <div>
+                <asp:Label ID="card" runat="server" CssClass="block text-sm font-semibold leading-6 text-gray-900">Password</asp:Label>
+                <div class="mt-2.5">
+                    <asp:TextBox ID="TextBox3"  runat="server" Width="308px" CssClass="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></asp:TextBox>
+                </div>
+            </div>
+
+            <div class="col-span-full">
+                <label for="street-address" class="block text-sm font-medium leading-6 text-gray-900">Street address</label>
+                <div class="mt-2">
+                    <asp:TextBox ID="streetAddress" runat="server" CssClass="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></asp:TextBox>
+                </div>
+            </div>
+
+            <div class="columns-3 columns-xl">
+            <div class="col-span-2 sm:col-start-1">
+                <label for="city" class="block text-sm font-medium leading-6 text-gray-900">City</label>
+                <div class="mt-2">
+                    <asp:TextBox ID="city" runat="server" CssClass="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></asp:TextBox>
+                </div>
+            </div>
+
+            <div class="col-span-2">
+              <label for="region" class="block text-sm font-medium leading-6 text-gray-900">State / Province</label>
+              <div class="mt-2">
+                <asp:TextBox ID="region" runat="server" CssClass="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></asp:TextBox>
+              </div>
+            </div>
+
+            <div class="col-span-2">
+              <label for="postal-code" class="block text-sm font-medium leading-6 text-gray-900">ZIP / Postal code</label>
+              <div class="mt-2">
+                <asp:TextBox ID="postalCode" runat="server" CssClass="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></asp:TextBox>
+              </div>
+            </div>
             </div>
       
             <br />
