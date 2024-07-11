@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="dbo.books_table.Table.sql" />
     <Content Include="Home.aspx" />
     <Content Include="Image\background_payment.png" />
     <Content Include="Image\about-motivation.jpg" />
