@@ -15,120 +15,30 @@ namespace PE_Project
     {
 
         /// <summary>
-        /// NovelSubmitBtn1 control.
+        /// novelRepeater control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button NovelSubmitBtn1;
+        protected global::System.Web.UI.WebControls.Repeater novelRepeater;
 
         /// <summary>
-        /// NovelSubmitBtn2 control.
+        /// FictionRepeater control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button NovelSubmitBtn2;
+        protected global::System.Web.UI.WebControls.Repeater FictionRepeater;
 
         /// <summary>
-        /// NovelSubmitBtn3 control.
+        /// CartoonRepeater control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button NovelSubmitBtn3;
-
-        /// <summary>
-        /// NovelSubmitBtn4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button NovelSubmitBtn4;
-
-        /// <summary>
-        /// Button1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
-
-        /// <summary>
-        /// FictionSubmitBtn1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button FictionSubmitBtn1;
-
-        /// <summary>
-        /// FictionSubmitBtn2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button FictionSubmitBtn2;
-
-        /// <summary>
-        /// FictionSubmitBtn3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button FictionSubmitBtn3;
-
-        /// <summary>
-        /// FictionSubmitBtn4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button FictionSubmitBtn4;
-
-        /// <summary>
-        /// CartoonSubmitBtn1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CartoonSubmitBtn1;
-
-        /// <summary>
-        /// CartoonSubmitBtn2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CartoonSubmitBtn2;
-
-        /// <summary>
-        /// CartoonSubmitBtn3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CartoonSubmitBtn3;
-
-        /// <summary>
-        /// CartoonSubmitBtn4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CartoonSubmitBtn4;
+        protected global::System.Web.UI.WebControls.Repeater CartoonRepeater;
     }
 }

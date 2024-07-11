@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "Z:\\Desktop\\PE(2)\\Project\\PE_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A5EC8EF-0382-47A3-8B06-5C780E52E978}|PE_Project\\PE_Project.csproj|Z:\\Desktop\\PE(2)\\Project\\PE_Project\\pe_project\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{5A5EC8EF-0382-47A3-8B06-5C780E52E978}|PE_Project\\PE_Project.csproj|solutionrelative:pe_project\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5A5EC8EF-0382-47A3-8B06-5C780E52E978}|PE_Project\\PE_Project.csproj|z:\\desktop\\pe(2)\\project\\pe_project\\pe_project\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{5A5EC8EF-0382-47A3-8B06-5C780E52E978}|PE_Project\\PE_Project.csproj|solutionrelative:pe_project\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5EC8EF-0382-47A3-8B06-5C780E52E978}|PE_Project\\PE_Project.csproj|z:\\desktop\\pe(2)\\project\\pe_project\\pe_project\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5EC8EF-0382-47A3-8B06-5C780E52E978}|PE_Project\\PE_Project.csproj|solutionrelative:pe_project\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5EC8EF-0382-47A3-8B06-5C780E52E978}|PE_Project\\PE_Project.csproj|Z:\\Desktop\\PE(2)\\Project\\PE_Project\\pe_project\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{5A5EC8EF-0382-47A3-8B06-5C780E52E978}|PE_Project\\PE_Project.csproj|solutionrelative:pe_project\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A5EC8EF-0382-47A3-8B06-5C780E52E978}|PE_Project\\PE_Project.csproj|Z:\\Desktop\\PE(2)\\Project\\PE_Project\\pe_project\\payment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -54,11 +58,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Home.aspx.cs",
+              "DocumentMoniker": "Z:\\Desktop\\PE(2)\\Project\\PE_Project\\PE_Project\\Home.aspx.cs",
+              "RelativeDocumentMoniker": "PE_Project\\Home.aspx.cs",
+              "ToolTip": "Z:\\Desktop\\PE(2)\\Project\\PE_Project\\PE_Project\\Home.aspx.cs",
+              "RelativeToolTip": "PE_Project\\Home.aspx.cs",
+              "ViewState": "AQIAAEcAAADAZmZmZgY0wF0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T08:52:17.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "About.aspx",
               "DocumentMoniker": "Z:\\Desktop\\PE(2)\\Project\\PE_Project\\PE_Project\\About.aspx",
               "RelativeDocumentMoniker": "PE_Project\\About.aspx",
@@ -66,12 +83,11 @@
               "RelativeToolTip": "PE_Project\\About.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-07-10T06:07:53.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T06:07:53.984Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Payment.aspx.cs",
               "DocumentMoniker": "Z:\\Desktop\\PE(2)\\Project\\PE_Project\\PE_Project\\Payment.aspx.cs",
               "RelativeDocumentMoniker": "PE_Project\\Payment.aspx.cs",
@@ -83,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Site1.Master",
               "DocumentMoniker": "Z:\\Desktop\\PE(2)\\Project\\PE_Project\\PE_Project\\Site1.Master",
               "RelativeDocumentMoniker": "PE_Project\\Site1.Master",
@@ -96,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ShoppingCart.aspx",
               "DocumentMoniker": "Z:\\Desktop\\PE(2)\\Project\\PE_Project\\PE_Project\\ShoppingCart.aspx",
               "RelativeDocumentMoniker": "PE_Project\\ShoppingCart.aspx",
@@ -108,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Payment.aspx",
               "DocumentMoniker": "Z:\\Desktop\\PE(2)\\Project\\PE_Project\\PE_Project\\Payment.aspx",
               "RelativeDocumentMoniker": "PE_Project\\Payment.aspx",
@@ -116,12 +132,11 @@
               "RelativeToolTip": "PE_Project\\Payment.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-07-10T02:05:37.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T02:05:37.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Payment.aspx.cs",
               "DocumentMoniker": "C:\\Users\\XU\\source\\repos\\GroupProject\\GroupProject\\Payment.aspx.cs",
               "ToolTip": "C:\\Users\\XU\\source\\repos\\GroupProject\\GroupProject\\Payment.aspx.cs",
@@ -131,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Home.aspx",
               "DocumentMoniker": "Z:\\Desktop\\PE(2)\\Project\\PE_Project\\PE_Project\\Home.aspx",
               "RelativeDocumentMoniker": "PE_Project\\Home.aspx",
@@ -144,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Welcome.aspx",
               "DocumentMoniker": "Z:\\Desktop\\PE(2)\\Project\\PE_Project\\PE_Project\\Welcome.aspx",
               "RelativeDocumentMoniker": "PE_Project\\Welcome.aspx",
@@ -152,12 +167,11 @@
               "RelativeToolTip": "PE_Project\\Welcome.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-07-10T06:06:55.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T06:06:55.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ShoppingCart.aspx",
               "DocumentMoniker": "C:\\Users\\XU\\source\\repos\\GroupProject\\GroupProject\\ShoppingCart.aspx",
               "ToolTip": "C:\\Users\\XU\\source\\repos\\GroupProject\\GroupProject\\ShoppingCart.aspx",
@@ -167,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Site1.Master.cs",
               "DocumentMoniker": "Z:\\Desktop\\PE(2)\\Project\\PE_Project\\PE_Project\\Site1.Master.cs",
               "RelativeDocumentMoniker": "PE_Project\\Site1.Master.cs",
@@ -179,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Site1.Master",
               "DocumentMoniker": "C:\\Users\\XU\\source\\repos\\GroupProject\\GroupProject\\Site1.Master",
               "ToolTip": "C:\\Users\\XU\\source\\repos\\GroupProject\\GroupProject\\Site1.Master",
@@ -189,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Site1.Master.cs",
               "DocumentMoniker": "C:\\Users\\XU\\source\\repos\\GroupProject\\GroupProject\\Site1.Master.cs",
               "ToolTip": "C:\\Users\\XU\\source\\repos\\GroupProject\\GroupProject\\Site1.Master.cs",
