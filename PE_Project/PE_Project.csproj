@@ -69,6 +69,25 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="Image\book_image\a_single_man_novel.png" />
+    <Content Include="Image\book_image\charlotte_web_novel.png" />
+    <Content Include="Image\book_image\diary_of_wimpy_kid_cartoon.jpg" />
+    <Content Include="Image\book_image\einstein_cartoon.jpg" />
+    <Content Include="Image\book_image\fahrenheit_451_fiction.jpg" />
+    <Content Include="Image\book_image\Garfield_goes_hod_wild_cartoon.jpg" />
+    <Content Include="Image\book_image\i_hope_this_helps_cartoon.jpg" />
+    <Content Include="Image\book_image\kite_runner_novel.png" />
+    <Content Include="Image\book_image\little_women_novel.png" />
+    <Content Include="Image\book_image\Number_the_stars_novel.png" />
+    <Content Include="Image\book_image\Pride_and_Prejudice_novel.png" />
+    <Content Include="Image\book_image\romeo_and_juliet_fiction.jpg" />
+    <Content Include="Image\book_image\the_cacher_in_the_rye_fiction.jpg" />
+    <Content Include="Image\book_image\the_fellowship_of_the_ring_fiction.jpg" />
+    <Content Include="Image\book_image\the_outsiders_novel.png" />
+    <Content Include="Image\book_image\the_reader_novel.png" />
+    <Content Include="Image\book_image\to_kill_a_mockingbird_fiction.jpg" />
+    <Content Include="Image\book_image\war_and_peas_cartoon.jpg" />
+    <Content Include="Image\book_image\yukon_ho_cartoon.jpg" />
     <Content Include="Image\close.png" />
     <Content Include="Payment.aspx" />
     <Content Include="PaymentSuccess.aspx" />
