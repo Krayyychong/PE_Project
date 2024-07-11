@@ -6,7 +6,7 @@
 
 <!--welcome section-->
 <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-  <img src="Image/about-welcome.jpg" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
+  <img src="Image/about-welcome.png" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
   <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
     <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
   </div>
@@ -65,28 +65,27 @@
       <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
         <div class="col-span-2 pt-6">
             <p>
-                Welcome to our bookstore, a beloved literary haven that has been inspiring readers since its establishment in the year 2000. 
-                Born out of a passion for books and a desire to create a community hub for book lovers, our store started as a small, 
-                independent shop with a mission to provide a diverse selection of literature and a welcoming space for all.
+                The motivation for opening a bookstore stems from a profound desire to cultivate a space 
+                where the love of literature and the quest for knowledge can flourish. 
+                It is an aspiration to create a sanctuary where minds can wander freely through the vast landscapes of imagination and intellect. 
                 <br/>
-                Over the past two decades, our bookstore has grown from a humble beginning to become a cherished part of the community. 
-                Despite the rapid changes in the digital age, we have remained a steadfast advocate for the printed word, 
-                continuously expanding our collection and hosting numerous author events, book clubs, and community gatherings. 
-                Our journey from a fledgling bookstore to a vibrant cultural hub is a testament to our enduring commitment to fostering a love for 
-                reading and bringing people together through the power of stories.
+                This endeavor seeks to foster a community bound by the shared appreciation of words and ideas, 
+                offering a refuge for those who find solace and inspiration within the pages of a book. 
+                Driven by a passion for nurturing curiosity and enlightenment, the bookstore aims to become a beacon of culture and learning, 
+                illuminating the path for all who seek to explore the boundless world of literature.
             </p>
         </div>
         <div class="group relative">
           <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-            <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." class="h-full w-full object-cover object-center">
+            <img src="Image/about-motivation.jpg" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." class="h-full w-full object-cover object-center">
           </div>
           <h1 class="mt-6 text-sm text-gray-500">
             <a href="#">
               <span class="absolute inset-0"></span>
-              Our Trajectory
+              Why we started 
             </a>
           </h1>
-          <p class="text-xl font-semibold text-gray-900">History</p>
+          <p class="text-xl font-semibold text-gray-900">Motivation</p>
         </div>
       </div>
       
