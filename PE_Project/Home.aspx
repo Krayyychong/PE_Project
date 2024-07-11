@@ -56,7 +56,7 @@
 <!--category-novel-->
 <div class="bg-white">
   <div class="mx-auto max-w-7xl px-8 py-12">
-    <h2 class="font-bold pb-4"> Novels : </h2>
+    <h2 class="font-bold pb-4 text-3xl"> Novels : </h2>
 
     <div class=" grid grid-cols-4 gap-x-8 gap-y-10 relative overflow-auto overflow-y-scroll h-[500px]">
        <asp:Repeater runat="server" ID="novelRepeater" OnItemDataBound="novelRepeater_ItemDataBound">
@@ -84,7 +84,7 @@
      <!--category-fiction-->
 <div class="bg-white">
   <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-    <h2 class="font-bold pb-4"> Fictions: </h2>
+    <h2 class="font-bold pb-4 text-3xl"> Fictions: </h2>
        <div class=" grid grid-cols-4 gap-x-8 gap-y-10 relative overflow-auto overflow-y-scroll h-[500px]">
         <asp:Repeater runat="server" ID="FictionRepeater" OnItemDataBound="fictionRepeater_ItemDataBound">
             <ItemTemplate>
@@ -111,7 +111,7 @@
     <!--category-cartoon-->
 <div class="bg-white">
   <div class="mx-auto max-w-2xl px-4 py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-    <h2 class="font-bold pb-4"> Cartoon : </h2>
+    <h2 class="font-bold pb-4 text-3xl"> Cartoon : </h2>
 
      <div class=" grid grid-cols-4 gap-x-8 gap-y-10 relative overflow-auto overflow-y-scroll h-[500px]">
         <asp:Repeater runat="server" ID="CartoonRepeater" OnItemDataBound="cartoonRepeater_ItemDataBound">

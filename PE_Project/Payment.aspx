@@ -111,29 +111,21 @@
             <asp:RegularExpressionValidator ID="revCVV" runat="server" ControlToValidate="CVV" ValidationExpression="^\d{3}$" ErrorMessage="CVV must be 3 digits." CssClass="validator"></asp:RegularExpressionValidator>
         </div>
 
-        <div class="col-span-full">
-             <asp:Label ID="Label10" runat="server" CssClass="block text-sm font-semibold leading-6 text-gray-900">Street</asp:Label>
-            <div class="mt-2">
-                <asp:TextBox ID="StreetAddress" runat="server" Width="708px" CssClass="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></asp:TextBox>
-            </div>
-            <asp:RequiredFieldValidator ID="rfvStreetAddress" runat="server" ControlToValidate="StreetAddress" ErrorMessage="Street is required." ForeColor="Red" CssClass="validator"></asp:RequiredFieldValidator>
-        </div>
-
-        <div class="columns-3">
+        <div class="columns-3 col-span-full">
         <div class="sm:col-span-2 sm:col-start-1">
-           <asp:Label ID="Label11" runat="server" CssClass="block text-sm font-semibold leading-6 text-gray-900">City</asp:Label>
-          <div class="mt-2">
-            <asp:TextBox ID="City" runat="server" Width="150px" CssClass="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></asp:TextBox>
-          </div>
-            <asp:RequiredFieldValidator ID="rfvCity" runat="server" ControlToValidate="City" ErrorMessage="City is required." ForeColor="Red" CssClass="validator"></asp:RequiredFieldValidator>
-        </div>
-
-        <div class="sm:col-span-2">
            <asp:Label ID="Label12" runat="server" CssClass="block text-sm font-semibold leading-6 text-gray-900">State/Province</asp:Label>
           <div class="mt-2">
             <asp:TextBox ID="Region" runat="server" Width="150px" CssClass="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></asp:TextBox>
           </div>
             <asp:RequiredFieldValidator ID="rfvRegion" runat="server" ControlToValidate="Region" ErrorMessage="Region is required." ForeColor="Red" CssClass="validator"></asp:RequiredFieldValidator>
+        </div>
+
+        <div class="sm:col-span-2">
+           <asp:Label ID="Label11" runat="server" CssClass="block text-sm font-semibold leading-6 text-gray-900">City</asp:Label>
+          <div class="mt-2">
+            <asp:TextBox ID="City" runat="server" Width="150px" CssClass="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></asp:TextBox>
+          </div>
+            <asp:RequiredFieldValidator ID="rfvCity" runat="server" ControlToValidate="City" ErrorMessage="City is required." ForeColor="Red" CssClass="validator"></asp:RequiredFieldValidator>
         </div>
 
         <div class="sm:col-span-2">
@@ -143,6 +135,14 @@
           </div>
             <asp:RequiredFieldValidator ID="rfvPostalCode" runat="server" ControlToValidate="PostalCode" ErrorMessage="PostalCode is required." ForeColor="Red" CssClass="validator"></asp:RequiredFieldValidator>
         </div>
+        </div>
+
+        <div class="col-span-full">
+            <asp:Label ID="Label10" runat="server" CssClass="block text-sm font-semibold leading-6 text-gray-900">Street</asp:Label>
+            <div class="mt-2">
+                <asp:TextBox ID="StreetAddress" runat="server" Width="708px" CssClass="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></asp:TextBox>
+            </div>
+            <asp:RequiredFieldValidator ID="rfvStreetAddress" runat="server" ControlToValidate="StreetAddress" ErrorMessage="Street is required." ForeColor="Red" CssClass="validator"></asp:RequiredFieldValidator>
         </div>
 
         </div>

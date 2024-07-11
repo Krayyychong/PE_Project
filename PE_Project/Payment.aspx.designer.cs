@@ -240,31 +240,31 @@ namespace PE_Project
         protected global::System.Web.UI.WebControls.RegularExpressionValidator revCVV;
 
         /// <summary>
-        /// Label10 控件。
+        /// Label12 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label10;
+        protected global::System.Web.UI.WebControls.Label Label12;
 
         /// <summary>
-        /// StreetAddress 控件。
+        /// Region 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox StreetAddress;
+        protected global::System.Web.UI.WebControls.TextBox Region;
 
         /// <summary>
-        /// rfvStreetAddress 控件。
+        /// rfvRegion 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvStreetAddress;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvRegion;
 
         /// <summary>
         /// Label11 控件。
@@ -294,33 +294,6 @@ namespace PE_Project
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvCity;
 
         /// <summary>
-        /// Label12 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label12;
-
-        /// <summary>
-        /// Region 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Region;
-
-        /// <summary>
-        /// rfvRegion 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvRegion;
-
-        /// <summary>
         /// Label13 控件。
         /// </summary>
         /// <remarks>
@@ -346,6 +319,33 @@ namespace PE_Project
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvPostalCode;
+
+        /// <summary>
+        /// Label10 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label10;
+
+        /// <summary>
+        /// StreetAddress 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox StreetAddress;
+
+        /// <summary>
+        /// rfvStreetAddress 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvStreetAddress;
 
         /// <summary>
         /// submit 控件。

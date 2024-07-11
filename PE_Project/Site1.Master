@@ -23,7 +23,7 @@
     </asp:ContentPlaceHolder>
 </head>
 
-<body>
+<body class="h-full">
     <form id="form1" runat="server">
 
         <div>
