@@ -70,7 +70,7 @@
     <Content Include="About.aspx" />
     <Content Include="dbo.books_table.Table.sql" />
     <Content Include="Home.aspx" />
-    <Content Include="Image\80591720607184_.pic.jpg" />
+    <Content Include="Image\background_payment.png" />
     <Content Include="Image\about-motivation.jpg" />
     <Content Include="Image\about-welcome.png" />
     <Content Include="Image\close.png" />
