@@ -6,6 +6,10 @@
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="Welcome" runat="server">
+           <!--
+               sliding effect
+
+               -->
 
             <div class="h-full bg-[url('./Image/welcome_cover.png')]">
 

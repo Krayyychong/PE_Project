@@ -6,6 +6,11 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="Payment" runat="server">
 
+    <!--
+        credit card + password + ccv
+        address = country + state + city + street + zipcode
+        -->
+
     <div class="h-full bg-[url('./Image/background_payment.png')]  place-content-center">
 
         <div class="mt-100">
