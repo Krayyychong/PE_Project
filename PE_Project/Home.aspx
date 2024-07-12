@@ -3,7 +3,7 @@
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="Home" runat="server">
-<!--welcome rolling-->
+    -<!--welcome rolling-->
 <div class="relative overflow-hidden bg-[#7E604A] ">
       <div class="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
         <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
@@ -59,26 +59,26 @@
     <h2 class="font-bold pb-4 text-3xl"> Novels : </h2>
 
     <div class=" grid grid-cols-4 gap-x-8 gap-y-10 relative overflow-auto overflow-y-scroll h-[500px]">
-       <asp:Repeater runat="server" ID="novelRepeater" OnItemDataBound="novelRepeater_ItemDataBound">
+       <asp:Repeater runat="server" ID="novelRepeater" OnItemDataBound="novelRepeater_ItemDataBound" OnItemCommand="novelRepeater_ItemCommand">
            <ItemTemplate>
                <div href="#" class="group">
                   <div class="h-4/6 aspect-w-7 overflow-hidden rounded-lg bg-gray-200">
-                    <img src="<%# Eval("ImagePath") %>"" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." 
+                    <img src="<%# Eval("book_image") %>"" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." 
                         class="object-fill object-center group-hover:opacity-75" 
                         >
                   </div>
-                  <h3 class="mt-4 text-sm text-gray-700"><%# Eval("BookName") %></h3>
-                  <p class="mt-1 text-lg font-medium text-gray-900">$<%# Eval("Price", "{0:F2}") %></p>
+                  <h3 class="mt-4 text-sm text-gray-700"><%# Eval("book_name") %></h3>
+                  <p class="mt-1 text-lg font-medium text-gray-900">$<%# Eval("book_price", "{0:F2}") %></p>
                   <div class="items-center text-center">
                       <asp:Button runat="server" ID="NovelSubmitBtn" CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
-                              hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" />
+                              hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" CommandName="AddToCart" CommandArgument='<%# Eval("book_id") %>' />
                   </div>
                 </div>
            </ItemTemplate>
        </asp:Repeater>
     </div>
+
   </div>
-  
 </div>
 
      <!--category-fiction-->
@@ -86,25 +86,24 @@
   <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
     <h2 class="font-bold pb-4 text-3xl"> Fictions: </h2>
        <div class=" grid grid-cols-4 gap-x-8 gap-y-10 relative overflow-auto overflow-y-scroll h-[500px]">
-        <asp:Repeater runat="server" ID="FictionRepeater" OnItemDataBound="fictionRepeater_ItemDataBound">
+        <asp:Repeater runat="server" ID="FictionRepeater" OnItemDataBound="fictionRepeater_ItemDataBound" OnItemCommand="FictionRepeater_ItemCommand">
             <ItemTemplate>
                 <div href="#" class="group">
                    <div class="h-4/6 aspect-w-7 overflow-hidden rounded-lg bg-gray-200">
-                     <img src="<%# Eval("ImagePath") %>"" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." 
+                     <img src="<%# Eval("book_image") %>"" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." 
                          class="object-fill object-center group-hover:opacity-75" 
                          >
                    </div>
-                   <h3 class="mt-4 text-sm text-gray-700"><%# Eval("BookName") %></h3>
-                   <p class="mt-1 text-lg font-medium text-gray-900">$<%# Eval("Price", "{0:F2}") %></p>
+                   <h3 class="mt-4 text-sm text-gray-700"><%# Eval("book_name") %></h3>
+                   <p class="mt-1 text-lg font-medium text-gray-900">$<%# Eval("book_price", "{0:F2}") %></p>
                    <div class="items-center text-center">
                        <asp:Button runat="server" ID="FictionSubmitBtn" CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
-                               hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" />
+                               hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" CommandName="AddToCart" CommandArgument='<%# Eval("book_id") %>' />
                    </div>
                  </div>
             </ItemTemplate>
-        </asp:Repeater>
+        </asp:Repeater> 
      </div>
-    
   </div>
 </div>
 
@@ -114,19 +113,19 @@
     <h2 class="font-bold pb-4 text-3xl"> Cartoon : </h2>
 
      <div class=" grid grid-cols-4 gap-x-8 gap-y-10 relative overflow-auto overflow-y-scroll h-[500px]">
-        <asp:Repeater runat="server" ID="CartoonRepeater" OnItemDataBound="cartoonRepeater_ItemDataBound">
+        <asp:Repeater runat="server" ID="CartoonRepeater" OnItemDataBound="cartoonRepeater_ItemDataBound" OnItemCommand="CartoonRepeater_ItemCommand">
             <ItemTemplate>
                 <div href="#" class="group">
                    <div class="h-4/6 aspect-w-7 overflow-hidden rounded-lg bg-gray-200">
-                     <img src="<%# Eval("ImagePath") %>"" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." 
+                     <img src="<%# Eval("book_image") %>"" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." 
                          class="object-fill object-center group-hover:opacity-75" 
                          >
                    </div>
-                   <h3 class="mt-4 text-sm text-gray-700"><%# Eval("BookName") %></h3>
-                   <p class="mt-1 text-lg font-medium text-gray-900">$<%# Eval("Price", "{0:F2}") %></p>
+                   <h3 class="mt-4 text-sm text-gray-700"><%# Eval("book_name") %></h3>
+                   <p class="mt-1 text-lg font-medium text-gray-900">$<%# Eval("book_price", "{0:F2}") %></p>
                    <div class="items-center text-center">
                        <asp:Button runat="server" ID="CartoonSubmitBtn" CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
-                               hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" />
+                               hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" Text="Add To Cart" CommandName="AddToCart" CommandArgument='<%# Eval("book_id") %>' />
                    </div>
                  </div>
             </ItemTemplate>
