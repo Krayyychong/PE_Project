@@ -57,7 +57,7 @@ namespace PE_Project
 
         private void InsertPaymentInfo(string cardHolderName, string phone, string email, string countryNo, string selectedCountry, string bankName, string cardNo, string expireDate, string cvv, string city, string postalCode, string street, string state)
         {
-            string connectionString = @"Data Source=XYX-WINLAPTOP\SQLEXPRESS01;Initial Catalog=bookwebsite;Integrated Security=True;";
+            string connectionString = @"Data Source=LAPTOP-8NN9M5HK\SQLEXPRESS01;Initial Catalog=bookwebsite;Integrated Security=True;";
 
             try
             {
@@ -98,7 +98,7 @@ namespace PE_Project
 
         private void EmptyShoppingCart()
         {
-            string connectionString = @"Data Source=XYX-WINLAPTOP\SQLEXPRESS01;Initial Catalog=bookwebsite;Integrated Security=True;";
+            string connectionString = @"Data Source=LAPTOP-8NN9M5HK\SQLEXPRESS01;Initial Catalog=bookwebsite;Integrated Security=True;";
             using (SqlConnection con = new SqlConnection(connectionString))
             {
                 con.Open();

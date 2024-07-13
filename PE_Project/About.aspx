@@ -198,7 +198,7 @@
         <div class="text-center w-full">
             <asp:Button runat="server" ID="contactSubmitBtn" Text="SUBMIT" 
                 CssClass="rounded-md bg-[#58220D] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm 
-                                hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                                hover:bg-[#9B6740] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" OnClick="contactSubmitBtn_Click"
                 />
         </div>
       </div>
